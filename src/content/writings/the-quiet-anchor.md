@@ -1,5 +1,5 @@
 ---
-title: "The Quiet Anchor: Rethinking Confidence and Ego"
+title: "Balancing Confidence and Ego"
 date: 07/2026
 ---
 
