@@ -1,0 +1,25 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush110/Ayush-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ayush110/Ayush-site/issues"
+  },
+  "homepage": "https://github.com/ayush110/Ayush-site#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.5"
+  }
+}
