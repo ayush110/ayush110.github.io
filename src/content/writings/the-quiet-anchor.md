@@ -1,5 +1,5 @@
 ---
-title: "Balancing Confidence and Ego"
+title: "Notes on Confidence"
 date: 07/2026
 ---
 
