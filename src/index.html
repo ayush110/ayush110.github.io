@@ -223,6 +223,16 @@ nav {
   line-height: 1.7;
   color: var(--ink);
 }
+.post-content a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.2s;
+}
+.post-content a:hover {
+  text-decoration-color: var(--link);
+}
 
 /* CODE LIST */
 .code-list {
@@ -351,6 +361,80 @@ nav {
 }
 .post-content h2 { font-size: 1.4rem; }
 .post-content h3 { font-size: 1.15rem; }
+.post-content hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+.post-content .resource-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  border-top: 1px solid var(--border);
+}
+.post-content .resource-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--border);
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.post-content .resource-label {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.post-content .resource-note {
+  font-size: 0.98rem;
+  color: var(--muted);
+  text-align: right;
+}
+.post-content .resource-link {
+  text-decoration: none;
+  display: block;
+}
+.post-content .resource-link:hover .resource-label {
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 4px;
+}
+.post-content .post-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.post-content .post-gallery figure {
+  margin: 0;
+}
+.post-content .post-gallery--single {
+  grid-template-columns: 1fr;
+}
+.post-content .post-gallery--single img {
+  max-height: 42rem;
+  object-fit: cover;
+}
+.post-content figure {
+  margin: 2rem 0;
+}
+.post-content img {
+  width: 100%;
+  border: 1px solid var(--border);
+}
+.post-content figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+@media(max-width: 600px) {
+  .post-content .post-gallery {
+    grid-template-columns: 1fr;
+  }
+}
 
 </style>
 </head>

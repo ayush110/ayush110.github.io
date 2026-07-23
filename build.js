@@ -18,6 +18,10 @@ function build() {
   for (const file of files) {
     const rawContent = fs.readFileSync(path.join(WRITINGS_DIR, file), 'utf-8');
     const parsed = matter(rawContent);
+
+    if (parsed.data.draft === true) {
+      continue;
+    }
     
     writings.push({
       title: parsed.data.title || file.replace('.md', ''),
