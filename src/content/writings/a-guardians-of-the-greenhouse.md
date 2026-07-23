@@ -1,6 +1,6 @@
 ---
-title: Guardians of the Greenhouse
-date: 07/2026
+title: Reflections on Final Year Capstone
+date: 05/2026
 ---
 
 By the end of capstone, we had built VineVision, a mobile camera system for forecasting tomato yield in greenhouses. But that wasn't the project we started with. Our first idea was essentially a robotic bee.
